@@ -1,0 +1,17 @@
+{
+  "name": "kotipizza",
+  "version": "1.0.0",
+  "description": "The backend for receiving orders from an AI voice agent.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "zod": "^3.24.2"
+  }
+}
